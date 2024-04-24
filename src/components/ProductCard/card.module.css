@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px , 1fr));
+    padding: 10px;
+}
+.container img{
+    height: 140px;
+    width: 140px;
+}
+
+.card{
+    max-height: 390px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+}

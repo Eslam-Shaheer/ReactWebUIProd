@@ -1,0 +1,28 @@
+.textColor{
+    color: #000;
+}
+.bgColor{
+    background-color: rgb(0, 0, 255);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navItem{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+}
+.navActive{
+    text-decoration: underline;
+    color: blue;
+}
+.navPending{
+  color: aqua;
+  opacity: 0.7;
+}
+
+.pointer{
+    cursor: pointer;
+}
